@@ -1,0 +1,38 @@
+{
+  "name": "node-pre-commit",
+  "version": "0.0.1",
+  "description": "Pre-commit Git hook for NodeJS. Automatically installs pre-commit hooks for your npm modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "install": "node install.js",
+    "uninstall": "node uninstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysden123/node-pre-commit.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "git",
+    "pre-commit",
+    "hook"
+  ],
+  "author": "Yuriy Stul",
+  "contributors": [
+    {
+      "name": "Observe.it",
+      "url": "https://github.com/observing/pre-commit"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysden123/node-pre-commit/issues"
+  },
+  "homepage": "https://github.com/ysden123/node-pre-commit#readme",
+  "dependencies": {
+    "cross-spawn": "^4.0.0",
+    "which": "^1.2.9"
+  }
+}
