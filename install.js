@@ -1,8 +1,6 @@
 'use strict';
 
-console.log('***');
-console.log('Installing pre-commit hook script');
-console.log('***');
+console.log('pre-commit: Installing pre-commit hook script');
 
 //
 // Compatibility with older node.js as path.exists got moved to `fs`.
