@@ -1,6 +1,6 @@
 {
   "name": "node-pre-commit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pre-commit Git hook for NodeJS. Automatically installs pre-commit hooks for your npm modules.",
   "main": "index.js",
   "scripts": {
