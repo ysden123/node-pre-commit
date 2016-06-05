@@ -22,7 +22,7 @@ Example of package.json:
 ...
   "devDependencies": {
     "chai": "",
-    "pre-commit":  "node-pre-commit" 
+    "node-pre-commit": "" 
   }
 
 ```
